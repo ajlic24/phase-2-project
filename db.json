@@ -1,0 +1,19 @@
+{
+    "plans": [
+        {
+            "id": 1,
+            "month": "December",
+            "toDo": "Clean the house"
+        },
+        {
+            "id": 2,
+            "month": "January",
+            "toDo": "Go to aunt Jemima's party"
+        },
+        {
+            "id": 3,
+            "month": "February",
+            "toDo": "Drive to Georgia"
+        }
+    ]
+}
