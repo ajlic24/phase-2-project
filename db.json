@@ -1,19 +1,60 @@
 {
-    "plans": [
-        {
-            "id": 1,
-            "month": "December",
-            "toDo": "Clean the house"
-        },
-        {
-            "id": 2,
-            "month": "January",
-            "toDo": "Go to aunt Jemima's party"
-        },
-        {
-            "id": 3,
-            "month": "February",
-            "toDo": "Drive to Georgia"
-        }
-    ]
+  "plans": [
+    {
+      "id": 1,
+      "month": "February",
+      "toDo": "Clean the house",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ",
+      "image": ""
+    },
+    {
+      "id": 2,
+      "month": "December",
+      "toDo": "Go to aunt Jemima's party",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ",
+      "image": ""
+    },
+    {
+      "id": 3,
+      "month": "January",
+      "toDo": "Drive to Georgia",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ",
+      "image": ""
+    },
+    {
+      "id": 4,
+      "month": "February",
+      "toDo": "Take wife to dinner",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ",
+      "image": ""
+    },
+    {
+      "month": "June",
+      "toDo": "Get new shoes",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Exce",
+      "image": "Place image source here...",
+      "id": 5
+    },
+    {
+      "month": "April",
+      "toDo": "Attend DJ's party",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Exce",
+      "image": "Place image source here...",
+      "id": 6
+    },
+    {
+      "month": "October",
+      "toDo": "Process passport",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Exce",
+      "image": "Place image source here...",
+      "id": 7
+    },
+    {
+      "month": "March",
+      "toDo": "Start swimming lessons",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Exce",
+      "image": "Place image source here...",
+      "id": 8
+    }
+  ]
 }
