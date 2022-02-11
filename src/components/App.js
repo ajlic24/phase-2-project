@@ -55,13 +55,11 @@ function App() {
             <Filter handleClick={handleClick} onChange={onChange} />
             <br />
             <br />
-            <Home data={data} selectedMonth={selectedMonth} isClicked={isClicked} >
-              <ToDoItem onDelete={onDelete} />
-            </Home>
+            <Home data={data} selectedMonth={selectedMonth} isClicked={isClicked} />
           </div>
         } />
         <Route exact path='/new' element={<AddNew onSubmit={onSubmit} />} />
-        <Route exact path='/:id' element={<InfoPage data={data} />} />
+        <Route exact path='/:id' element={<InfoPage data={data} onDelete={onDelete} />} />
         <Route path={`/:id/edit`} element={<EditPage data={data} onEdit={onEdit} />} />
       </Routes>
     </>

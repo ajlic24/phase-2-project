@@ -1,8 +1,9 @@
 
 import React from "react"
+import ToDoItem from "./ToDoItem"
 
 
-function Home({data, selectedMonth, isClicked, children}) {
+function Home({data, selectedMonth, isClicked}) {
     
     const sortedMonths = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
 
@@ -10,9 +11,8 @@ function Home({data, selectedMonth, isClicked, children}) {
 
     const toShow = toSort.filter(item => selectedMonth === 'Filter by month' ? true : item.month === selectedMonth).map(toDo => {
         return (
-            <React.Fragment key={toDo.id}>
-                {React.cloneElement(children, {toDo})}
-            </React.Fragment>
+            <ToDoItem key={toDo.id} toDo={toDo} />
+                
         )
     })
 

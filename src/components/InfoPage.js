@@ -1,11 +1,26 @@
 import { Container, Button } from "react-bootstrap"
-import { useParams, Link } from "react-router-dom"
+import { useParams, Link, useNavigate } from "react-router-dom"
 import defaultImg from '../images/default.jpg'
 
-function InfoPage({ data }) {
+function InfoPage({ data, onDelete }) {
     const { id } = useParams()
-
+    const navigate = useNavigate()
     const toShow = data.find(item => item.id === parseInt(id))
+
+    function handleDelete() {
+        fetch(`http://localhost:3001/plans/${toShow.id}`, {
+            method: 'DELETE',
+            headers: {
+                'Content-Type': 'application/json',
+                'Accept': 'application/json'
+            },
+        })
+            .then(r => r.json())
+            .then(() => {
+                onDelete(toShow.id)
+                navigate(-1)
+            })
+    }
 
     return (
         <div className="App">
@@ -22,6 +37,7 @@ function InfoPage({ data }) {
                     </>
                 ) : 'Loading'}
             </Container>
+            <Button variant="danger" onClick={handleDelete} >Remove</Button> 
             <Link to={`/${id}/edit`} ><Button >Edit</Button></Link>
         </div>
     )
