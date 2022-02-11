@@ -1,14 +1,14 @@
 import {Route, Routes} from 'react-router-dom'
-import Home from './Home'
 import { useEffect, useState } from 'react'
+import Home from './Home'
 import React from 'react'
 import Filter from './Filter'
 import NavBar from './NavBar'
 import AddNew from './AddNew'
-import '../App.css'
-import ToDoItem from './ToDoItem'
 import InfoPage from './InfoPage'
 import EditPage from './EditPage'
+import '../App.css'
+
 
 function App() {
   const [data, setData] = useState([])
