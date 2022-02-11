@@ -18,7 +18,7 @@ function InfoPage({ data, onDelete }) {
             .then(r => r.json())
             .then(() => {
                 onDelete(toShow.id)
-                navigate(-1)
+                navigate('/')
             })
     }
 
