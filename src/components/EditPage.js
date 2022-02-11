@@ -32,7 +32,15 @@ function EditPage({ data, onEdit }) {
             body: JSON.stringify(formData)
         })
             .then(r => r.json())
-            .then(data => onEdit(data))
+            .then(data => {
+                onEdit(data)
+                setFormData({
+                    month: '',
+                    image: '',
+                    description: '',
+                    toDo: '',
+                })
+            })
     }
 
     function handleChange(e) {
