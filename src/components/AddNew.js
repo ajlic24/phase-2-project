@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import FormData from './FormData'
 
-function AddNew({onSubmit}) {
+function AddNew({ onSubmit }) {
     const [formData, setFormData] = useState({
         month: '',
         toDo: 'Enter your plan here...',

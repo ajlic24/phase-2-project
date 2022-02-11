@@ -48,7 +48,7 @@ function EditPage({ data, onEdit }) {
             <hr />
             <br />
             <br />
-        <FormData handleChange={handleChange}  handleSubmit={handleSubmit} formData={formData} />
+            <FormData handleChange={handleChange} handleSubmit={handleSubmit} formData={formData} />
         </div>
     )
 }
