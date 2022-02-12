@@ -31,7 +31,7 @@ function InfoPage({ data, onDelete }) {
             <Container>
                 {toShow ? (
                     <>
-                        <img src={(toShow.image === '' || toShow.image === 'Place image source here...') ? defaultImg : toShow.image} style={{ height: '400px', width: '400px' }} />
+                        <img src={(toShow.image === '' || toShow.image === 'Place image source here...') ? defaultImg : toShow.image} style={{ height: '400px', width: '400px' }} alt='' />
                         <p><strong>When:</strong> {toShow.month} </p>
                         <p><strong>Description:</strong> {toShow.description} </p>
                     </>
