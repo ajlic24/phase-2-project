@@ -49,7 +49,7 @@ function App() {
       <Routes>
         <Route exact path='/' element={
           <div className='App' >
-            <h1>My Plans for 2022</h1>
+            <h1>miniPlanner</h1>
             <hr />
             <br />
             <Filter handleClick={handleClick} onChange={onChange} />

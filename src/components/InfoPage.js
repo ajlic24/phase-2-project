@@ -22,7 +22,7 @@ function InfoPage({ data, onDelete }) {
             })
     }
 
-    return (
+    return ( 
         <div className="App">
             <h1>{toShow ? toShow.toDo : 'Loading'}</h1>
             <hr />
