@@ -8,7 +8,7 @@ function InfoPage({ data, onDelete }) {
     const toShow = data.find(item => item.id === parseInt(id))
 
     function handleDelete() {
-        fetch(`http://localhost:3001/plans/${toShow.id}`, {
+        fetch(`${REACT_APP_URL}/${toShow.id}`, {
             method: 'DELETE',
             headers: {
                 'Content-Type': 'application/json',

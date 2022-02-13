@@ -23,7 +23,7 @@ function EditPage({ data, onEdit }) {
 
     function handleSubmit(e) {
         e.preventDefault()
-        fetch(`http://localhost:3001/plans/${id}`, {
+        fetch(`${REACT_APP_URL}/${id}`, {
             method: 'PATCH',
             headers: {
                 'Content-Type': 'application/json',

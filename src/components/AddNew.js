@@ -19,7 +19,7 @@ function AddNew({ onSubmit }) {
     function handleSubmit(e) {
         e.preventDefault()
         const newObj = { ...formData }
-        fetch(`http://localhost:3001/plans`, {
+        fetch(`${REACT_APP_URL}`, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
