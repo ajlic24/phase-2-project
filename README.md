@@ -13,7 +13,7 @@ This project is made to help individuals plan their year, without going through 
 ## How to Use
 
 1. *** lkdfjsalj ***
-> ![image] (./images/step 1.gif)
+> ![image] (./images/step1.gif)
 
 2. *** lkdfjsalj ***
 > ![image] (./images/...)
