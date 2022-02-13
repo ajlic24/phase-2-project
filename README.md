@@ -1,6 +1,6 @@
 # miniPlanner
 
-This project is made to help individuals plan their year, without going through cluttered functionality. This is a minimalistic approach for a planner, to quickly see - on a high level - which tasks need to be done throughout the year.
+This project is made to help individuals plan their year, without going through cluttered functionality. This is a minimalistic approach for a planner, to quickly see which tasks need to be done throughout the year.
 
 ## Features
 
@@ -13,7 +13,7 @@ This project is made to help individuals plan their year, without going through 
 ## How to Use
 
 1. *** lkdfjsalj ***
-> ![image] (./images/...)
+> ![image] (./images/step 1.gif)
 
 2. *** lkdfjsalj ***
 > ![image] (./images/...)
@@ -21,6 +21,6 @@ This project is made to help individuals plan their year, without going through 
 ## Technologies used
 
 This app was made using:
-- [React](link...) 
-- [React Bootstrap](link...)
-- [React Router v6](link...)
+- [React](https://reactjs.org/) 
+- [React Bootstrap](https://react-bootstrap.github.io/)
+- [React Router](https://reactrouter.com/)
