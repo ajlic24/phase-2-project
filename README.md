@@ -12,19 +12,19 @@ This project is made to help individuals plan their year, without going through 
 
 ## How to Use
 
-1. *** Filter by month and sort from January to December ***
+1. ***Filter by month and sort from January to December***
 > ![image](./src/images/step-1.gif)
 
-2. *** Click `Add to List` on top left hand to add a new plan ***
+2. ***Click `Add to List` on top left hand to add a new plan***
 > ![image](./src/images/step-2.gif)
 
-3. *** Click `View More Info` to see more information about that specific plan ***
+3. ***Click `View More Info` to see more information about that specific plan***
 > ![image](./src/images/step-3.gif)
 
-4. *** Click `Edit` to edit the plan, description, and image (not putting an image will show the default picture of a dog) ***
+4. ***Click `Edit` to edit the plan, description, and image (not putting an image will show the default picture of a dog)***
 > ![image](./src/images/step-4.gif)
 
-5. *** Click `Remove` to delete the plan (will redirect back to Home page) ***
+5. ***Click `Remove` to delete the plan (will redirect back to Home page)***
 > ![image](./src/images/step-5.gif)
 
 ## Technologies used
