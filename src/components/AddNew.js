@@ -19,7 +19,7 @@ function AddNew({ onSubmit }) {
     function handleSubmit(e) {
         e.preventDefault()
         const newObj = { ...formData }
-        fetch(`${REACT_APP_URL}`, {
+        fetch(`${process.env.REACT_APP_URL}`, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',

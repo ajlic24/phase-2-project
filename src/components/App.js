@@ -16,7 +16,7 @@ function App() {
   const [isClicked, setIsClicked] = useState(false)
 
   useEffect(() => {
-    fetch(`${REACT_APP_URL}`)
+    fetch(`${process.env.REACT_APP_URL}`)
       .then(r => r.json())
       .then(data => setData(data))
   }, [])

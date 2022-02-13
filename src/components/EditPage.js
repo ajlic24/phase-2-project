@@ -23,7 +23,7 @@ function EditPage({ data, onEdit }) {
 
     function handleSubmit(e) {
         e.preventDefault()
-        fetch(`${REACT_APP_URL}/${id}`, {
+        fetch(`${process.env.REACT_APP_URL}/${id}`, {
             method: 'PATCH',
             headers: {
                 'Content-Type': 'application/json',
